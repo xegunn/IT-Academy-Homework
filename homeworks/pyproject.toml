@@ -1,0 +1,17 @@
+[project]
+name = "homeworks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "xegunn", email = "56961095+xegunn@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+homeworks = "homeworks:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
